@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui;
+  color: #243e63;
+}
+
+section {
+  padding: 0 32px;
+}
+
+body {
+  line-height: inherit;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 96px;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+html{
+  text-size-adjust: 100%;
+  tab-size: 4;
+}
+
+.the-rest {
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(36 62 99 / var(--tw-text-opacity));
+}
+
+/*
+
+NAVBAR
+
+*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
+
+HEADER / ABOUT US
+
+*/
+
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-bottom-width: 0px;
+  font-weight: 900;
+  margin-left: 0px !important;
+  font-size: 1.5rem !important;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-spacing: 64px;
+}
+
+.navlinks__button {
+  padding: 16px;
+  background-color: blueviolet;
+  font-weight: 500;
+  border-radius: 32px;
+}
