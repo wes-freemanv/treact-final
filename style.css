@@ -84,6 +84,10 @@ header .row {
   font-size: 1.5rem !important;
 }
 
+.logo-2 {
+  max-height: 80px;
+}
+
 .nav__links {
   display: flex;
   align-items: center;
@@ -96,4 +100,9 @@ header .row {
   background-color: blueviolet;
   font-weight: 500;
   border-radius: 32px;
+}
+
+.nav__links2-1 {
+  word-spacing: normal;
+  margin-right: 64px;
 }
