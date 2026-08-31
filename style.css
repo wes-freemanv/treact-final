@@ -74,6 +74,10 @@ header .row {
   justify-content: space-between;
 }
 
+.light__header {
+    box-sizing: 688px x 60px;
+}
+
 .logo {
   display: flex;
   -webkit-box-align: center;
@@ -85,14 +89,17 @@ header .row {
 }
 
 .logo-2 {
-  max-height: 80px;
+  max-height: 38px;
+  margin-right: 8px;
 }
 
 .nav__links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  word-spacing: 64px;
+  word-spacing: 48px;
+  font-weight: 600;
+  font-size: 1rem !important;
 }
 
 .navlinks__button {
@@ -100,6 +107,8 @@ header .row {
   background-color: blueviolet;
   font-weight: 500;
   border-radius: 32px;
+  font-size: 1rem;
+  text-decoration-color: antiquewhite !important;
 }
 
 .nav__links2-1 {
