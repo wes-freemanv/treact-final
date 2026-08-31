@@ -100,19 +100,34 @@ header .row {
   word-spacing: 48px;
   font-weight: 600;
   font-size: .9rem !important;
+  height: 8px;
 }
 
 .navlinks__button {
-  padding: 16px;
-  max-height: 24px;  
-  background-color: blueviolet;
+  padding: 12px 36px;
+  background-color: rgb(92, 43, 226);
   font-weight: 600;
   border-radius: 32px;
   font-size: .9rem;
-  text-decoration-color: antiquewhite !important;
 }
 
 .nav__links2-1 {
   word-spacing: normal;
   margin-right: 24px;
+}
+
+.navlinks2 {
+  color: antiquewhite;
+}
+
+.navlinks2-1:hover {
+  text-decoration: underline;
+}
+
+.nav__links2-1:hover {
+  text-decoration: underline;
+}
+
+.navlinks2:hover {
+  text-decoration: underline;
 }
