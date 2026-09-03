@@ -145,7 +145,7 @@ header .row {
   margin-left: left;
   margin-right: auto;
   max-width: 32rem;
-  text-align: center;
+  text-align: left;
 }
 
 .column__heading {
@@ -156,15 +156,22 @@ header .row {
 .column__paragraph {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
-.h1-email__nav-bar {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 28rem;
-  text-align: center;
+.h1-email__nav-bar button {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 32px;
+  background-color: #6415ff;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .h1-email__nav-bar input {
