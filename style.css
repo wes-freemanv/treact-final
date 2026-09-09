@@ -16,6 +16,11 @@ body {
   line-height: inherit;
 }
 
+h1, h2, h3, h5 {
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
 .row {
   width: 100%;
   max-width: 1200px;
@@ -212,4 +217,62 @@ header .row {
   height: auto;
   max-width: 100%;
   display: block;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(36 62 99 / var(--tw-text-opacity));
+}
+
+.service__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section2-paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* ---------- Features ---------- */
+
+.features h2,
+.pricing h2,
+.cta h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.feature-card {
+  padding: 24px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.feature-card h3 {
+  font-size: 1.1rem;
+}
+
+.feature-card p {
+  margin-bottom: 0;
 }
