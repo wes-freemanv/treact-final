@@ -276,3 +276,11 @@ header .row {
 .feature-card p {
   margin-bottom: 0;
 }
+
+.Column__heading1 {
+font-weight: 600;
+  font-size: 120px;
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
