@@ -455,46 +455,11 @@ header .row {
     align-items: center;
 }
 
-.value__box-1 {
-  flex-direction: row;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin-left: auto;
-  margin-right: auto;
+.affordable-pro__row {
   display: flex;
-  max-width: 1280px;
-  flex-direction: column;
-  -webkit-box-align: center;
-   align-items: center;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.right-img__value-box {
- display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 50%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: auto;
-}
-
-.left-value-box {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  text-align: left;
-  width: 50%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: auto;
+  align-items: flex-start;
+  justify-content: row;
+  margin: 0;
 }
 
 .principles {
@@ -510,22 +475,6 @@ header .row {
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.professionalism__column, .affordable__column {
-  padding-top: 1rem;
-  margin-right: 2rem;
-  align-items: flex-start;
-  margin-top: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-}
-
-.principles__button {
-  display: flex;
-  justify-content: left;
-  align-items: left;
 }
 
 /*PRICING*/
