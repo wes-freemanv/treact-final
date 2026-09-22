@@ -699,3 +699,49 @@ font-size: 30px;
 button, [role="button"] {
     cursor: pointer;
 }
+
+.business__plan {
+  background-color: #6415ff;
+}
+
+.threeplans-features .mainfeature2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fff;
+}
+
+  .plan2__buy-now {
+    background: linear-gradient(115deg, rgb(252, 253, 253) 0%, rgb(250, 250, 250) 100%);
+    width: 100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0.25rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: #6415ff (--tw-text-opacity);
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+button, [role="button"] {
+    cursor: pointer;
+}
+
+.threeplans-div .highlight2 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+      background: linear-gradient(115deg, rgb(193, 71, 47) 0%, rgb(234, 78, 54) 100%);
+}
