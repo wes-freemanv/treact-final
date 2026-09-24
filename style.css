@@ -548,7 +548,6 @@ font-size: 30px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
-
 }
 
 .pricing-txt {
@@ -574,11 +573,12 @@ font-size: 30px;
 .plans-container {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .threeplans-div {
@@ -621,6 +621,10 @@ font-size: 30px;
     padding-bottom: 2rem;
     text-transform: uppercase;
     line-height: 1.625;
+  }
+
+  .threeplans__header .duce{
+    font-style: #fff;
   }
 
   .threeplans__header .name{
@@ -686,10 +690,8 @@ font-size: 30px;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-radius: 0.25rem;
     --tw-bg-opacity: 1;
     background-color: rgb(100 21 255 / var(--tw-bg-opacity));
-    padding: 0.75rem 2rem;
     font-weight: 700;
     --tw-text-opacity: 1;
     color: rgb(247 250 252 / var(--tw-text-opacity));
@@ -701,7 +703,8 @@ button, [role="button"] {
 }
 
 .business__plan {
-  background-color: #6415ff;
+  background-color: #3e41f7;
+  color: #fff;
 }
 
 .threeplans-features .mainfeature2 {
@@ -721,10 +724,8 @@ button, [role="button"] {
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-radius: 0.25rem;
     --tw-bg-opacity: 1;
     background-color: rgb(100 21 255 / var(--tw-bg-opacity));
-    padding: 0.75rem 2rem;
     font-weight: 700;
     --tw-text-opacity: 1;
     color: #6415ff (--tw-text-opacity);
@@ -745,3 +746,124 @@ button, [role="button"] {
     border-top-right-radius: 0.5rem;
       background: linear-gradient(115deg, rgb(193, 71, 47) 0%, rgb(234, 78, 54) 100%);
 }
+
+.plan3__buy-now {
+ background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+     width: 100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; 
+}
+
+  .threeplans__header .name-b{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .threeplans__header .price-b {
+    font-size: 3rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .threeplans__header .duration-b {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    color: #fff;
+  }
+
+    .threeplans-features .feature2 {
+    margin-top: 0px;
+    margin-top: 1.25rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: #fff;
+  }
+
+  /* TESTIMONIALS*/
+
+  .slick-img__column {
+      position: relative;
+  margin-left: left;
+  margin-right: auto;
+  max-width: 32rem;
+  text-align: right;
+  }
+
+  .slick-img {
+    margin-bottom: 0.25rem;
+    display: flex;
+    max-height: auto;   
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 12rem;
+    gap: 0px;
+    margin-left: 6rem;
+  }
+
+  .slicklist__column {
+      width: 60%;
+  position: relative;
+  margin-left: 64px;
+  margin-right: 0px;
+  max-width: 32rem;
+  padding-left: -64px;
+  }
+
+  .slick-list__stars {
+        margin-right: 0.25rem;
+    display: flex;
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: currentcolor;
+    --tw-text-opacity: 1;
+    color: rgb(246 173 85 / var(--tw-text-opacity));
+    vertical-align: middle;
+    justify-content: row;
+  }
+
+  .review__header {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .review {
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 1.625;
+        --tw-text-opacity: 1;
+    color: rgb(74 85 104 / var(--tw-text-opacity));
+  }
+
+  .img-info-arrows__container {
+    display: flex;
+    justify-content: row;
+  }
+
+  .review-img1 {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 9999px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .customer-info {
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 0px;
+  }
