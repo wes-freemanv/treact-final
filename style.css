@@ -789,7 +789,7 @@ button, [role="button"] {
     color: #fff;
   }
 
-  /* TESTIMONIALS*/
+    /* TESTIMONIALS*/
 
   .slick-img__column {
       position: relative;
@@ -849,7 +849,7 @@ button, [role="button"] {
 
   .img-info-arrows__container {
     display: flex;
-    justify-content: row;
+    justify-content: space-between;
   }
 
   .review-img1 {
@@ -863,7 +863,6 @@ button, [role="button"] {
 
   .customer-info {
     text-align: left;
-    margin-left: 1.5rem;
     margin-top: 0px;
   }
 
