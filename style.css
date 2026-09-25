@@ -270,7 +270,6 @@ header .row {
 /* ---------- Features ---------- */
 
 .features h2,
-.pricing h2,
 .cta h2 {
   text-align: center;
   font-size: 2rem;
@@ -490,6 +489,7 @@ width: 44px;
 font-size: 30px;
 }
 
+
 .hero-il {
   width: 100%;
   height: auto;
@@ -520,6 +520,11 @@ font-size: 30px;
   margin-bottom: 1rem;
 }
 
+.h3__value {
+  margin-bottom: 1.5rem;
+  margin-left: .8rem;
+}
+
 .principle-para {
   text-align: left;
   font-size: 1.2rem;
@@ -535,6 +540,12 @@ font-size: 30px;
   max-width: 16rem;
   text-align: left;
 }
+
+.pro-row__para {
+  color:#9ea6ad;
+  margin-bottom: 1.5rem;
+}
+
 
 /*PRICING*/
 
@@ -597,6 +608,12 @@ font-size: 30px;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.plan__middle {
+  border-top: #b8c0c8;
+  border-bottom: #b8c0c8;
+  border: 2px;
+}
+
 .plans .highlight1 {
     position: absolute;
     left: 0px;
@@ -616,6 +633,7 @@ font-size: 30px;
     padding-bottom: 2rem;
     text-transform: uppercase;
     line-height: 1.625;
+    border-bottom: #b8c0c8 2px;
   }
 
   .threeplans__header .name{
@@ -627,7 +645,6 @@ font-size: 30px;
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-    font-size: 2.25rem;
     font-weight: 700;
   }
 
@@ -769,7 +786,6 @@ button, [role="button"] {
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-    font-size: 2.25rem;
     font-weight: 700;
     color: #fff;
   }
@@ -789,7 +805,7 @@ button, [role="button"] {
     color: #fff;
   }
 
-    /* TESTIMONIALS*/
+  /* TESTIMONIALS*/
 
   .slick-img__column {
       position: relative;
@@ -850,8 +866,34 @@ button, [role="button"] {
   .img-info-arrows__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
+  .testimonial__info{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial__button1, .testimonial__button2 {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 1rem;
+  background-color: #9ea6ad;
+  border-radius: 9999px;
+}
+
+.testimonial__button1:hover, .testimonial__button2:hover {
+    display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 1rem;
+  background-color: #55606a;
+  border-radius: 9999px;
+  border: black;
+  cursor: pointer;
+}
   .review-img1 {
     display: block;
     height: 5rem;
@@ -863,49 +905,31 @@ button, [role="button"] {
 
   .customer-info {
     text-align: left;
-    margin-top: 0px;
+    margin-left: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
   }
 
- /*FAQS*/
-
-  .faqs__header {
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 1.23rem;
-  width: 100%;
+  .customer__name {
+        color: #4a5568;
+    line-height: 1.625;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
   }
 
-  .faqs__box {
-
-    margin-top: 1.25rem;
-    cursor: pointer;
-    user-select: none;
-    border-radius: 0.5rem;
-    --tw-bg-opacity: 1;
-    background-color: rgb(237 242 247 / var(--tw-bg-opacity));
-    padding: 1.25rem 2rem;
-    --tw-text-opacity: 1;
-    color: rgb(45 55 72 / var(--tw-text-opacity));
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-duration: 300ms;
-    font-size: 1.125rem;
-    font-weight: 600;
-  }
-
-  .questions {
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-  }
-
-  .feather {
-        margin-left: 0.5rem;
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-duration: 300ms;
+  .customer__scrip {
+        color: #7c8ba1;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
   }
