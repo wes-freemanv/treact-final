@@ -23,10 +23,6 @@ h1, h2, h5 {
 
 h3 {
    display: block;
-    margin-block-start: 2.33em;
-    margin-block-end: 2.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
 }
@@ -530,15 +526,14 @@ font-size: 30px;
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: #9ea6ad;
 }
 
 .left-column-cond {
+  display: flex;
   position: relative;
-  margin-left: left;
-  margin-right: auto;
   max-width: 16rem;
   text-align: left;
-  width: 20%;
 }
 
 /*PRICING*/
