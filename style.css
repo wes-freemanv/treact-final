@@ -1062,7 +1062,7 @@ button, [role="button"] {
   position: relative;
   cursor: pointer;
 }
-.footer__divider {
+.foot__divider {
   width: 100%;
   height: 2px;
   margin: 64px 0;
