@@ -264,6 +264,7 @@ header .row {
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: #9ea6ad;
 }
 
 /* ---------- Features ---------- */
@@ -273,6 +274,7 @@ header .row {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
+  color: #9ea6ad;
 }
 
 .feature-grid {
@@ -292,6 +294,7 @@ header .row {
 
 .feature-text {
   margin-top: 0;
+  color: #9ea6ad;
 }
 
 .feature-card h3 {
@@ -837,6 +840,15 @@ button, [role="button"] {
   padding-left: -64px;
   }
 
+  .testimonials-para {
+      margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.25rem;
+  color: #9ea6ad;
+  }
+
   .slick-list__stars {
         margin-right: 0.25rem;
     display: flex;
@@ -866,11 +878,11 @@ button, [role="button"] {
 
   .img-info-arrows__container {
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
     align-items: center;
   }
 
-  .testimonial__info{
+  .testimonial__info {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -883,7 +895,7 @@ button, [role="button"] {
 }
 
 .testimonial__button:hover {
-    display: flex;
+  display: flex;
   align-items: center;
   padding: 1rem;
   background-color: #55606a;
@@ -1049,6 +1061,7 @@ button, [role="button"] {
     color: #f7fafc;
     line-height: 1.5;
 }
+
 .footer__column--link:nth-child(2) {
   margin-top: 24px;
 }
@@ -1062,6 +1075,7 @@ button, [role="button"] {
   position: relative;
   cursor: pointer;
 }
+
 .foot__divider {
   width: 100%;
   height: 2px;
@@ -1073,6 +1087,7 @@ button, [role="button"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 0px;
 }
 
 .footer__logo {
